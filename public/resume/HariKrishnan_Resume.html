@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hari Krishnan C — Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;900&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Space Grotesk',sans-serif;background:#fff;color:#1A1A1A;font-size:10pt;line-height:1.4}
+  .page{max-width:800px;margin:0 auto;padding:2.5rem 2.8rem}
+  /* HEADER */
+  .r-header{border-bottom:3px solid #1A1A1A;padding-bottom:1.2rem;margin-bottom:1.2rem}
+  .r-name{font-size:2.6rem;font-weight:900;letter-spacing:-2px;text-transform:uppercase;line-height:.9}
+  .r-name span{color:#2A2AFF}
+  .r-tagline{font-size:.9rem;font-weight:500;margin:.5rem 0 .8rem;opacity:.7}
+  .r-contact{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+  .r-contact a{color:#1A1A1A;text-decoration:none}
+  .r-contact a:hover{color:#FF2A2A}
+  /* SECTIONS */
+  .r-section{margin-bottom:1.1rem}
+  .r-section-title{font-size:.65rem;font-weight:900;text-transform:uppercase;letter-spacing:2.5px;color:#FF2A2A;border-bottom:2px solid #1A1A1A;padding-bottom:.25rem;margin-bottom:.75rem}
+  /* EDU */
+  .edu-row{display:grid;grid-template-columns:1fr auto;gap:.25rem 1rem;margin-bottom:.6rem}
+  .edu-deg{font-weight:700;font-size:.9rem}
+  .edu-inst{font-weight:500;opacity:.7;font-size:.82rem}
+  .edu-score{font-weight:900;font-size:.82rem;color:#2A2AFF;text-align:right}
+  .edu-yr{font-size:.75rem;opacity:.55;text-align:right}
+  /* EXPERIENCE */
+  .exp-item{margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid rgba(0,0,0,.1)}
+  .exp-item:last-child{border-bottom:none;margin-bottom:0}
+  .exp-row{display:flex;justify-content:space-between;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+  .exp-title{font-weight:900;font-size:.88rem;text-transform:uppercase;letter-spacing:-.3px}
+  .exp-org{font-weight:700;color:#2A2AFF;font-size:.82rem}
+  .exp-meta{font-size:.72rem;opacity:.55;font-weight:500}
+  /* PROJECTS */
+  .proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem}
+  .proj-item{padding:.5rem .6rem;border:2px solid #1A1A1A}
+  .proj-name{font-weight:900;font-size:.82rem;text-transform:uppercase;letter-spacing:-.3px}
+  .proj-desc{font-size:.73rem;font-weight:500;opacity:.7;margin:.15rem 0;line-height:1.35}
+  .proj-tech{font-size:.67rem;font-weight:700;color:#FF2A2A;text-transform:uppercase;letter-spacing:.5px}
+  /* SKILLS */
+  .skills-row{display:flex;flex-wrap:wrap;gap:.35rem}
+  .skill-pill{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:.25rem .6rem;border:2px solid #1A1A1A}
+  /* HACKATHONS */
+  .hack-row{display:grid;grid-template-columns:1fr auto auto;gap:.25rem .75rem;margin-bottom:.35rem;align-items:baseline}
+  .hack-name{font-weight:700;font-size:.82rem}
+  .hack-org{font-size:.75rem;opacity:.6}
+  .hack-award{font-weight:900;font-size:.75rem;text-align:right}
+  .hack-award.w{color:#FF2A2A}
+  .hack-award.f{color:#2A2AFF}
+  /* CERT */
+  .cert-list{display:grid;grid-template-columns:1fr 1fr;gap:.3rem}
+  .cert-item{font-size:.78rem;font-weight:500}
+  .cert-item strong{font-weight:700}
+  /* MISC */
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:.5rem 1.5rem}
+  .role-item{margin-bottom:.4rem}
+  .role-name{font-weight:900;font-size:.82rem;text-transform:uppercase}
+  .role-org{font-size:.75rem;font-weight:500;opacity:.65}
+  @media print{
+    body{font-size:9pt}
+    .page{padding:1.5rem 1.8rem;max-width:none}
+    .r-name{font-size:2rem}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="r-header">
+    <div class="r-name">Hari Krishnan<span> C</span></div>
+    <div class="r-tagline">AR/VR Developer · Game Developer · XR Engineer · Computer Science Engineer</div>
+    <div class="r-contact">
+      <span>📍 Sivakasi & Rajapalayam, Tamil Nadu</span>
+      <a href="tel:+919361249474">+91 93612 49474</a>
+      <a href="mailto:harikrishnanofficialdev@gmail.com">harikrishnanofficialdev@gmail.com</a>
+      <a href="https://github.com/hkhearts" target="_blank">github.com/hkhearts</a>
+      <a href="https://www.linkedin.com/in/hari-krishnan-973b36267/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="r-section">
+    <div class="r-section-title">Profile</div>
+    <p style="font-size:.85rem;font-weight:500;line-height:1.55;opacity:.85">
+      Computer Science engineer specialising in Augmented Reality, Virtual Reality, Game Development, and Machine Learning.
+      Building immersive experiences that bridge the physical and digital world. Passionate about innovative solutions with 50+ projects,
+      8 internships, and 18 hackathons. CGPA: 8.44 at Ramco Institute of Technology (2023–2027).
+    </p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="r-section">
+    <div class="r-section-title">Education</div>
+    <div class="edu-row">
+      <div><div class="edu-deg">B.E. Computer Science &amp; Engineering</div><div class="edu-inst">Ramco Institute of Technology, Rajapalayam</div></div>
+      <div><div class="edu-score">CGPA: 8.44</div><div class="edu-yr">2023 – 2027</div></div>
+    </div>
+    <div class="edu-row">
+      <div><div class="edu-deg">Higher Secondary (12th)</div><div class="edu-inst">Jaycees Matric Hr. Sec. School, Rajapalayam</div></div>
+      <div><div class="edu-score">90%</div><div class="edu-yr">2021 – 2023</div></div>
+    </div>
+    <div class="edu-row">
+      <div><div class="edu-deg">Primary (10th)</div><div class="edu-inst">VNUAPT Mat Hr Sec School</div></div>
+      <div><div class="edu-score">100%</div><div class="edu-yr">up to 2021</div></div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="r-section">
+    <div class="r-section-title">Internships &amp; Experience</div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Game Development &amp; VR Intern</span><span class="exp-meta">Jun–Jul 2025 · Offline</span></div>
+      <div class="exp-org">Sri Sairam Engineering College Incubator, Chennai</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Student Intern — R&amp;D Center</span><span class="exp-meta">Jun 2025–Present · Offline</span></div>
+      <div class="exp-org">RIT XR R&amp;D Center, Rajapalayam</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Automation Developer</span><span class="exp-meta">Apr 2025 (8 days) · Offline</span></div>
+      <div class="exp-org">The Ramco Cements Ltd, Ariyalur</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Java Developer Intern</span><span class="exp-meta">Dec 2024 · Online</span></div>
+      <div class="exp-org">ShadowFox (Remote)</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Student Intern</span><span class="exp-meta">Sep–Oct 2024 · Online</span></div>
+      <div class="exp-org">NVIDIA (Remote)</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Game Developer Intern</span><span class="exp-meta">Mar–Jul 2024 · Offline</span></div>
+      <div class="exp-org">Magnion Technology Factory (Onsite)</div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-row"><span class="exp-title">Python Developer Intern</span><span class="exp-meta">Oct–Nov 2023 · Online</span></div>
+      <div class="exp-org">CodSoft (Remote)</div>
+    </div>
+  </div>
+
+  <!-- LEADERSHIP -->
+  <div class="r-section">
+    <div class="r-section-title">Leadership &amp; Roles</div>
+    <div class="two-col">
+      <div class="role-item"><div class="role-name">Junior Developer</div><div class="role-org">4Friends Studio, Sri Sairam Incubation</div></div>
+      <div class="role-item"><div class="role-name">Head Manager</div><div class="role-org">RD Labz — R&amp;D Initiatives</div></div>
+      <div class="role-item"><div class="role-name">Chief Software Architect</div><div class="role-org">Folonite — Neurotechnology Apps</div></div>
+    </div>
+  </div>
+
+  <!-- FEATURED PROJECTS -->
+  <div class="r-section">
+    <div class="r-section-title">Featured Projects</div>
+    <div class="proj-grid">
+      <div class="proj-item">
+        <div class="proj-name">Driving Licence Car Simulator</div>
+        <div class="proj-desc">Physics-based driver training simulator with Logitech steering hardware and real-world traffic scenarios.</div>
+        <div class="proj-tech">Unity 3D · C# · Logitech SDK — 2025</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-name">ShadeIQ</div>
+        <div class="proj-desc">AR-powered makeup shade recommendation using WebAR and AI for real-time skin tone analysis.</div>
+        <div class="proj-tech">WebAR · Django · SQLite — 2025</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-name">Origami AR</div>
+        <div class="proj-desc">Interactive AR origami learning with image markers and 3D step-by-step instructions.</div>
+        <div class="proj-tech">ARCore · Unity · C# · Vuforia — 2024</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-name">Temple AR</div>
+        <div class="proj-desc">AR platform for cultural temple experiences, bringing heritage to life through immersive visualisation.</div>
+        <div class="proj-tech">ARCore · Unity · C# — 2025</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-name">YAP Compiler</div>
+        <div class="proj-desc">Custom compiler with lexical analysis, parsing, and code generation built from scratch in C#.</div>
+        <div class="proj-tech">C# · .NET — 2025</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-name">F.R.I.D.A.Y AI Assistant</div>
+        <div class="proj-desc">Voice-controlled personal assistant with NLP, task automation, and ML-powered responses.</div>
+        <div class="proj-tech">Python · ML · NLP — 2025</div>
+      </div>
+    </div>
+    <div style="margin-top:.5rem;font-size:.72rem;opacity:.5;font-weight:500">+ 40 more projects including game simulations, CV systems, web platforms, and AR/VR experiences.</div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="r-section">
+    <div class="r-section-title">Technical Skills</div>
+    <div class="skills-row">
+      <span class="skill-pill">C</span><span class="skill-pill">C++</span><span class="skill-pill">C#</span><span class="skill-pill">Java</span>
+      <span class="skill-pill">Python</span><span class="skill-pill">JavaScript</span><span class="skill-pill">OOP</span><span class="skill-pill">.NET</span>
+      <span class="skill-pill">Unity</span><span class="skill-pill">AR/VR</span><span class="skill-pill">ARCore</span><span class="skill-pill">ARKit</span>
+      <span class="skill-pill">Vuforia</span><span class="skill-pill">Blender</span><span class="skill-pill">SketchUp</span>
+      <span class="skill-pill">Django</span><span class="skill-pill">Three.js</span><span class="skill-pill">HTML/CSS</span>
+      <span class="skill-pill">TensorFlow</span><span class="skill-pill">OpenCV</span><span class="skill-pill">YOLO</span>
+      <span class="skill-pill">SQL</span><span class="skill-pill">MongoDB</span><span class="skill-pill">Git</span><span class="skill-pill">Figma</span>
+    </div>
+  </div>
+
+  <!-- HACKATHONS -->
+  <div class="r-section">
+    <div class="r-section-title">Hackathons (18 total)</div>
+    <div class="hack-row"><span class="hack-name">Naturals ShadeIQ Challenge</span><span class="hack-org">Naturals Salon · 2025</span><span class="hack-award w">Winner</span></div>
+    <div class="hack-row"><span class="hack-name">X-Play Game Jam</span><span class="hack-org">SRM Aaruush '24 · 2025</span><span class="hack-award w">2nd Place</span></div>
+    <div class="hack-row"><span class="hack-name">QModelX</span><span class="hack-org">SIMATS · 2025</span><span class="hack-award w">3rd Place</span></div>
+    <div class="hack-row"><span class="hack-name">Film Show</span><span class="hack-org">RIT, IE(I) · 2025</span><span class="hack-award w">2nd Place</span></div>
+    <div class="hack-row"><span class="hack-name">StartUp SpotLight</span><span class="hack-org">Guru Jambeshwar Univ., Delhi · 2025</span><span class="hack-award f">Finalist</span></div>
+    <div class="hack-row"><span class="hack-name">HackTU 6.0</span><span class="hack-org">TIET, Patiala · 2025</span><span class="hack-award f">Finalist</span></div>
+    <div class="hack-row"><span class="hack-name">Inviern'23</span><span class="hack-org">SBSC Univ. of Delhi · 2023</span><span class="hack-award f">Finalist</span></div>
+    <div style="font-size:.72rem;opacity:.5;margin-top:.3rem">+ 11 more participations including IIT Patna, NIT Tiruchirappalli, FlipKart Grid 6.0, Chandigarh University.</div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="r-section">
+    <div class="r-section-title">Certifications</div>
+    <div class="cert-list">
+      <div class="cert-item"><strong>Gen AI Course</strong> — LinkedIn Learning, 2024</div>
+      <div class="cert-item"><strong>C++ Advanced</strong> — Udemy, 2024</div>
+      <div class="cert-item"><strong>C# Unity 3D</strong> — Cursa, 2024</div>
+      <div class="cert-item"><strong>Gaming AI Dev</strong> — Itronics Solutions, 2024</div>
+      <div class="cert-item"><strong>HTML &amp; CSS (Zero to Hero)</strong> — Let's Upgrade, 2024</div>
+      <div class="cert-item"><strong>Meta Frontend</strong> — Coursera, 2023</div>
+      <div class="cert-item"><strong>Python Programming</strong> — CodSoft, 2023</div>
+      <div class="cert-item"><strong>Crash Course on Python</strong> — Google, 2023</div>
+    </div>
+  </div>
+
+  <!-- WORKSHOPS -->
+  <div class="r-section">
+    <div class="r-section-title">Events Organised</div>
+    <div class="cert-list">
+      <div class="cert-item"><strong>Augment Your Imagination</strong> — Instructor, RIT XR R&amp;D Center, 2025</div>
+      <div class="cert-item"><strong>Power BI Essentials</strong> — Instructor, RIT IEEE, 2025</div>
+      <div class="cert-item"><strong>SketchUp Pro Essentials</strong> — Instructor, RIT XR R&amp;D Center, 2025</div>
+      <div class="cert-item"><strong>Folonite Industrial Training</strong> — Instructor, 2024</div>
+    </div>
+  </div>
+
+  <!-- EXTRACURRICULAR -->
+  <div class="r-section">
+    <div class="r-section-title">Extracurricular</div>
+    <div class="two-col">
+      <div><strong>Art &amp; Drawing</strong> — 2D Sprites, Digital Art, Low Poly; Admin @hk._.drawings; National Art Contest Winner 2024</div>
+      <div><strong>Music</strong> — Lyrics Creation, Singing &nbsp;|&nbsp; <strong>Chess</strong> — 1000 rated on chess.com &nbsp;|&nbsp; <strong>Badminton</strong> — Trained Montfort Singapore, 3rd in Nationals</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

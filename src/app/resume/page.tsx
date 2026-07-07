@@ -25,7 +25,7 @@ export default function ResumePage() {
         <Link href="/" className="header-logo ie" style={{textDecoration:"none",color:"inherit"}}>HK Hearts</Link>
         <nav className="header-nav">
           <Link href="/" className="ie">← Back</Link>
-          <a href="/resume/HariKrishnan_Resume.html" target="_blank" className="ie resume-link">Open &amp; Print PDF</a>
+          <a href="/resume/Hari_Krishnan_C_Resume.pdf" target="_blank" className="ie resume-link">Open &amp; Print PDF</a>
         </nav>
         <div style={{fontSize:".8rem",fontWeight:700,opacity:.5,textTransform:"uppercase",letterSpacing:"1px"}}>Resume</div>
       </header>
@@ -33,13 +33,13 @@ export default function ResumePage() {
       <div className="resume-page">
         <div className="section-title-bar" style={{borderBottom:"var(--border)"}}>
           Hari Krishnan C — Resume
-          <a href="/resume/HariKrishnan_Resume.pdf" download
+          <a href="/resume/Hari_Krishnan_C_Resume.pdf" download
             style={{marginLeft:"2rem",fontSize:"1rem",fontWeight:700,textDecoration:"none",color:"var(--red)",letterSpacing:"1px"}}>
             ↓ Download PDF
           </a>
         </div>
         <iframe
-          src="/resume/HariKrishnan_Resume.html"
+          src="/resume/Hari_Krishnan_C_Resume.pdf"
           className="resume-frame"
           title="Hari Krishnan Resume"
         />

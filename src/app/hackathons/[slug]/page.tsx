@@ -34,7 +34,7 @@ export default function HackathonDetail({ params }: { params: Promise<{ slug: st
         <Link href="/" className="header-logo ie" style={{textDecoration:"none",color:"inherit"}}>HK Hearts</Link>
         <nav className="header-nav">
           <Link href="/hackathons" className="ie">← Hackathons</Link>
-          <Link href="/resume" className="ie resume-link">Resume</Link>
+          <a href="/resume/Hari_Krishnan_C_Resume.pdf" target="_blank" rel="noopener noreferrer" className="ie resume-link">Resume</a>
         </nav>
         <div style={{fontSize:".8rem",fontWeight:700,opacity:.5,textTransform:"uppercase",letterSpacing:"1px"}}>{h.year}</div>
       </header>

@@ -57,7 +57,7 @@ export default function Home() {
           <Link href="/hackathons" className="ie">Hackathons</Link>
           <a href="#certificates" className="ie">Certs</a>
           <a href="#contact"    className="ie">Contact</a>
-          <Link href="/resume"  className="ie resume-link">Resume</Link>
+          <a href="/resume/Hari_Krishnan_C_Resume.pdf" target="_blank" rel="noopener noreferrer" className="ie resume-link">Resume</a>
         </nav>
         <div style={{fontSize:".8rem",fontWeight:700,opacity:.5,textTransform:"uppercase",letterSpacing:"1px"}}>{personalInfo.location}</div>
       </header>
